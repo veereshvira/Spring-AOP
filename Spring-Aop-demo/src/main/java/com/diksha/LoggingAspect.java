@@ -16,7 +16,6 @@ public class LoggingAspect {
 	public void Beforelogger(JoinPoint jp) {
 //		System.out.println(jp.getSignature());
 //		System.out.println(jp.getKind());
-//		System.out.println(jp.getStaticPart());
 		String arg = jp.getArgs()[0].toString();
 		System.out.println("BeforeLoggers with Argument" + arg);
 	}
